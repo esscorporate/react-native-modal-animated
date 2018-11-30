@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Animated, Easing, TouchableOpacity, StyleSheet } from 'react-native';
+import { Animated, Easing, TouchableOpacity, StyleSheet, View } from 'react-native';
 export interface AnimatedModalProps {
   noAnimation?: boolean;
   visible: boolean;
