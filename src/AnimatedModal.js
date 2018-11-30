@@ -169,7 +169,7 @@ export default class AnimatedModal extends Component<
     };
 
     return (
-      <TouchableOpacity
+      <View
         activeOpacity={1}
         onPress={this.props.onBackdropPress}
         style={this.state.visible ? layerStyle : null}
@@ -180,7 +180,7 @@ export default class AnimatedModal extends Component<
         >
           {this.state.visible ? children : null}
         </Animated.View>
-      </TouchableOpacity>
+      </View>
     );
   }
 }
